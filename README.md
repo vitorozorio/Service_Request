@@ -1,7 +1,13 @@
 # Service_Request
 
-classDiagram
+## summary
+
+    This system is an exercise from the Java Object-Oriented Programming course on Udemy. It aims to simulate a work order system.
+
+## classDiagram
+
     Order "1" *-- "N" OrderItem
+
     Order "1" *-- "1" Client
 
     class Order {
@@ -36,3 +42,8 @@ classDiagram
         PROCESSING = 2
         DELIVERED = 3
     }
+
+
+
+
+
