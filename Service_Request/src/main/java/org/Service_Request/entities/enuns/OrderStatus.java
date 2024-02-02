@@ -4,6 +4,6 @@ public enum OrderStatus {
 
     FINDING_PAYMENT,
     PROCESSING,
-    DELIVERED;
+    DELIVERED,
 }
 
