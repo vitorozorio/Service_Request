@@ -27,7 +27,12 @@ public class Main {
         order.addOrderItem(orderItem);
         order.addOrderItem(orderItem2);
 
-        System.out.println(order.toString());
+        //System.out.println(orderItem);
+        //System.out.println(orderItem2);
+
+
+
+       System.out.println(order.toString());
 
 
 

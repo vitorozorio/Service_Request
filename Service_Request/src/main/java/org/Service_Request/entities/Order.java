@@ -70,10 +70,11 @@ public class Order {
         sb.append("Order status: " + getStatus() + "\n");
         sb.append("Client: " + getClient() + "\n");
         sb.append("Order items: \n");
-        sb.append(getOrderItems() + "\n");
+        for(OrderItem c : orderItems ){
+            sb.append(c.toString() + "\n");
+        }
 
         return sb.toString();
     }
-
 
 }

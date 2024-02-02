@@ -26,7 +26,8 @@ public class Product {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
-        sb.append(getName());
+        sb.append(getName() + getPrice());
         return sb.toString();
     }
+
 }

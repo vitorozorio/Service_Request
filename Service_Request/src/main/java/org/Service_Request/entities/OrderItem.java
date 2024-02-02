@@ -27,8 +27,11 @@ public class OrderItem {
     }
 
     public Double subTotal(Integer quantity){
-        return product.getPrice() * quantity;
+
+        Double sb = product.getPrice() * quantity;
+        return sb;
     }
+
     public String toString(){
 
         StringBuilder sb = new StringBuilder();
