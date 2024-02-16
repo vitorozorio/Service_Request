@@ -40,5 +40,4 @@ public class OrderItem {
 
         return sb.toString();
     }
-
 }

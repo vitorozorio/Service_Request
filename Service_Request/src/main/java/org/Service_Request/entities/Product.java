@@ -29,5 +29,4 @@ public class Product {
         sb.append(getName() + getPrice());
         return sb.toString();
     }
-
 }
